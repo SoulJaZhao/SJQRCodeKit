@@ -7,9 +7,12 @@
 #
 
 Pod::Spec.new do |s|
+  #名称
   s.name             = 'SJQRCodeKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SJQRCodeKit.'
+  #版本号
+  s.version          = '1.0.0'
+  #简介
+  s.summary          = '二维码相关功能库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,16 +21,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+提供二维码相关功能
                        DESC
-
-  s.homepage         = 'https://github.com/SoulJaGo/SJQRCodeKit'
+  #主页,这里要填写可以访问到的地址，不然验证不通过
+  s.homepage         = 'https://github.com/SoulJaZhao/SJQRCodeKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  #开源协议
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'SoulJaGo' => 'superzhaolong@126.com' }
-  s.source           = { :git => 'https://github.com/SoulJaGo/SJQRCodeKit.git', :tag => s.version.to_s }
+  #作者
+  s.author           = { 'SoulJaZhao' => 'superzhaolong@126.com' }
+  #这里的s.source须指向存放源代码的链接地址，而不是托管spec文件的repo地址
+  s.source           = { :git => 'https://github.com/SoulJaZhao/SJQRCodeKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  #支持的平台及版本
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SJQRCodeKit/Classes/**/*'
@@ -37,6 +44,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  #所需的framework，多个用逗号隔开
+  s.frameworks = 'UIKit', 'CoreGraphics', 'AVFoundation', 'CoreImage'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,7 +1,8 @@
 use_frameworks!
 
 target 'SJQRCodeKit_Example' do
-  pod 'SJQRCodeKit', :path => '../'
+  #pod 'SJQRCodeKit', :path => '../'
+  pod 'SJQRCodeKit', :path => '../SJQRCodeKit.podspec'
 
   target 'SJQRCodeKit_Tests' do
     inherit! :search_paths

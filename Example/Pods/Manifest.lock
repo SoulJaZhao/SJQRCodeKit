@@ -1,16 +1,16 @@
 PODS:
-  - SJQRCodeKit (0.1.0)
+  - SJQRCodeKit (1.0.0)
 
 DEPENDENCIES:
-  - SJQRCodeKit (from `../`)
+  - SJQRCodeKit (from `../SJQRCodeKit.podspec`)
 
 EXTERNAL SOURCES:
   SJQRCodeKit:
-    :path: ../
+    :path: ../SJQRCodeKit.podspec
 
 SPEC CHECKSUMS:
-  SJQRCodeKit: b445abca14bdcd191d4df2b3764182de2f38a0ca
+  SJQRCodeKit: fa0f11850acb44ea047ddb9848b5274ac5d244eb
 
-PODFILE CHECKSUM: 7854aeb07aad57caaa38f4f3617ef2994e151ce4
+PODFILE CHECKSUM: 4da065ae3737c274d6c0538f12ac3d8acdd19ea7
 
 COCOAPODS: 1.1.1
