@@ -1,0 +1,6 @@
+framework module SJQRCodeKit {
+  umbrella header "SJQRCodeKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

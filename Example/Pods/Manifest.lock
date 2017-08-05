@@ -1,0 +1,16 @@
+PODS:
+  - SJQRCodeKit (0.1.0)
+
+DEPENDENCIES:
+  - SJQRCodeKit (from `../`)
+
+EXTERNAL SOURCES:
+  SJQRCodeKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SJQRCodeKit: b445abca14bdcd191d4df2b3764182de2f38a0ca
+
+PODFILE CHECKSUM: 7854aeb07aad57caaa38f4f3617ef2994e151ce4
+
+COCOAPODS: 1.1.1
